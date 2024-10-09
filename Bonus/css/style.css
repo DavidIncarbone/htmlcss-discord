@@ -1,0 +1,189 @@
+/* root */
+:root {
+    --bg-container-: #323338;
+    --bg-bt-login-: #5865f2;
+    --txt-blue-: #2491c7;
+    --txt-grey-: #727378;
+    --color-txt-gray-white: #d9d9d9;
+}
+
+/* general */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-image: url(../img/new-and-slightly-older-discord-login-screen-as-a-png-v0-nnd20frfve3d1.webp);
+    background-size: cover;
+
+}
+
+a {
+
+    text-decoration: none;
+}
+
+
+
+/* colors bg and txt */
+
+.txt-blue {
+
+    color: var(--txt-blue-);
+}
+
+.txt-gray {
+
+    color: var(--txt-grey-);
+}
+
+.txt-gray-white {
+
+    color: var(--color-txt-gray-white);
+}
+
+/* positioning utility */
+
+.d-block {
+
+    display: block;
+}
+
+.txt-center {
+
+    text-align: center;
+}
+
+.pd-bot {
+
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.pd-top {
+
+    padding-top: 15px;
+
+
+}
+
+.mg-top {
+
+    margin-top: 15px;
+
+}
+
+.bg-bt-blue {
+
+    background-color: var(--bg-bt-login-);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* header */
+
+
+
+header a {
+
+    display: inline-block;
+    height: 23px;
+    padding: 0px 0 0 100px;
+    margin-left: 23px;
+    margin-top: 29px;
+}
+
+
+
+
+/* main */
+
+main {
+
+    padding: 80px;
+}
+
+
+
+.container {
+
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+    color: white;
+
+}
+
+
+section {
+
+    background-color: var(--bg-container-);
+}
+
+/* section left */
+
+
+.s-left {
+
+    width: 60%;
+}
+
+h2 {
+
+    color: white;
+    font-size: bold;
+}
+
+p {
+
+    padding: 15px 0;
+}
+
+
+
+input {
+
+    width: 100%;
+    height: 30px;
+
+}
+
+input,
+textarea {
+
+    background-color: black;
+    opacity: 0.1;
+    color: white;
+}
+
+.canc {
+
+    color: red;
+}
+
+/* section right */
+
+.s-right {
+
+    width: 35%;
+
+    text-align: center;
+}
+
+.qr-code {
+
+    width: 150px;
+    padding-top: 30px;
+}
